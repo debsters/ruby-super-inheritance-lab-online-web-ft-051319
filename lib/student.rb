@@ -1,3 +1,4 @@
+require_relative "./student.rb"
 class ChattyStudent < Student
 
   def hello
@@ -10,7 +11,7 @@ class ChattyStudent < Student
   end
 
 	# def raise_hand
-  #   10.times do
+  #   10.times do 
   #     super
   #   end
   # end
